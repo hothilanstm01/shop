@@ -1,0 +1,45 @@
+<div class="right">
+    <h3 class="tcsp">Sản Phẩm Xem Nhiều >></h3>
+<hr>
+<div class="boxcenter">
+    <?php
+        foreach ($top as $pr) {
+            # code...
+            echo '<div class="box">
+                    <img src="images/'.$pr['image_link'].'" alt="">
+                    <div class="name">'.$pr['name'].'</div>
+                    <div class="gia">'.$pr['price'].'đ</div>
+                    <div class="mua">         
+                        <a href="index.php?ctrl=product&action=detail&id='.$pr['id'].'"><i class="fa fa-eye"> Xem chi tiết</i></a>
+                    </div>
+                   
+                </div>';
+        }
+    ?>
+    
+    
+</div>
+</div>
+
+
+<div class="right">
+    <h3 class="tcsp">Sản Phẩm Giá Rẻ >></h3>
+<hr>
+<div class="boxcenter">
+    <?php
+        foreach ($giathap as $pr) {
+            # code...
+            echo '<div class="box">
+                    <img src="images/'.$pr['image_link'].'" alt="">
+                    <div class="name">'.$pr['name'].'</div>
+                    <div class="gia">'.$pr['price'].'đ</div>
+                    <div class="mua">         
+                        <a href="index.php?ctrl=product&action=detail&id='.$pr['id'].'"><i class="fa fa-eye"> Xem chi tiết</i></a>
+                    </div>
+                </div>';
+        }
+    ?>
+    
+    
+</div>
+</div>

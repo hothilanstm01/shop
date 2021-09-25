@@ -1,0 +1,141 @@
+body{
+     margin: 0;
+ }
+hr{
+    float: left;
+    width: 100%;
+}
+.home{
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    height: 30px;
+    background-color: brown;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+} 
+ul{
+    width:80%;
+    margin:0 auto;
+    list-style:none; 
+}
+ul li{
+    float:left;            
+}
+ul li a{
+    text-decoration: none;    
+    color: white;   
+    font-size:16pt;
+    margin-right:70px;
+    font-weight:bold;   
+    text-align: center; 
+}
+ul li a:hover{                 
+    color: black;  
+    text-decoration: underline;     
+}
+footer{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.box{
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+}
+.box img{
+    width: 100%;
+    float: left;
+    height: 500px;
+    margin-bottom: 10px;
+}
+a{
+    color: black;
+}
+.box h1{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+table, th, td{
+    border:3px solid black;
+    height: 40px;
+}
+table{
+    width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    border-collapse:collapse;
+}
+.chon{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.chon button{
+    width: 500px;
+    height: 50px;
+    background-color: brown;
+    border: 0;
+}
+.chon button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+}
+.boxcenter{
+    width: 100%;
+    float: left;
+}
+.themmoi{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+form{
+    width: 60%;
+    margin: 0 auto;
+}
+input[type="text"]{
+    width: 890px;
+    height: 50px;
+    border: 2px solid brown;
+    padding: 0px 10px;
+}
+.themmoi label{
+    font-size: 16pt;
+    color: brown;
+    font-weight: bold;
+}
+.luu{
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: brown;
+    color: white;
+}
+.themmoi button{
+    border: 0;
+    width: 100px;
+    background-color: brown;
+   
+    height: 30px;
+}
+.themmoi button a{
+    color: white;text-decoration: none;
+}
+.xoa{
+    color: red;
+    font-weight: bold;
+}
+.sua{
+    color: blue;font-weight: bold;
+}
+.col{
+    font-weight: bold;
+}

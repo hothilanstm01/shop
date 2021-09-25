@@ -1,0 +1,370 @@
+body{
+    margin: 0;   
+}
+.dangnhap a{ 
+    float: right;
+    text-decoration: none;
+    color:  rgb(39, 107, 124);
+    font-weight: bold;
+    font-size: 25pt;
+    padding: 30px 0px;
+}
+header{
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;   
+}
+section{
+    margin: 0 auto;
+    width: 80%;
+    min-height: 700px;
+    margin-top: 20px;
+}
+header a h1{
+    float: left;
+    color:  rgb(39, 107, 124);
+    width: calc(15% - 40px);
+    padding: 0px 20px;
+    font-size: 30pt;
+}
+
+header a h1 span{
+    color: black;
+    font-size: 14pt;
+    font-style: italic;
+    text-decoration: none;
+}
+
+input[type="search"]{
+    float: left;
+    width: 35%;
+    height: 30px;
+    margin: 35px 0px;
+    border: 2px  rgb(39, 107, 124) solid;
+}
+input[type="submit"]{
+    float: left;
+    width: calc(9% - 20px);
+    background-color:  rgb(39, 107, 124);
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 35px 0px;
+    border: 0;
+    padding: 0px 10px;
+    text-align: center;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color: black;
+}
+.lienhe{
+    width: calc(40% - 120px);
+    float: right;
+    padding: 20px 60px;
+}
+.lienhe .t1{
+    width: calc(100% - 30px);
+    color:  rgb(39, 107, 124);
+    font-weight: bold;
+    font-size: 13pt;
+    padding: 0px 15px;
+}
+.lienhe .t2{
+    color:  rgb(39, 107, 124);
+    font-weight: bold;
+    font-size: 20pt;
+    float: left;
+}
+.lienhe .t2 span{
+    color:red; 
+}
+.menu{
+    width: calc(100% - 200px);
+    float: left;
+    padding: 0px 100px;
+    background-color: rgb(39, 107, 124);
+}
+.menu a{
+    font-size: 16pt;
+    text-decoration: none;
+    color: white;
+    margin-right: 6.5%; 
+    font-weight: bold;
+      
+}
+.menu a:hover{
+    color: white;
+    text-decoration: underline black;
+}
+.tcsp{
+    float: left;
+    width: calc(30% - 20px);
+    height: 20px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    color:  rgb(39, 107, 124);
+}
+section .boxcenter{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+}
+section hr{
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+    border: 1px solid rgb(39, 107, 124);
+}
+.box{
+    width: 30.5%;
+    float: left;
+    min-height: 350px;
+    border: 2px solid  rgb(39, 107, 124);
+    margin: 10px 1%;
+    position: relative;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    background-color:  rgb(94, 157, 173);
+    min-height: 200px;
+}
+.boxleft{
+    width: calc(27% - 80px);
+    float: left;
+    padding: 10px 40px;
+    
+}
+.boxgiua{
+    float: left;
+    width: calc(20% - 80px);
+    padding: 10px 40px;
+}
+.boxright{
+    float: left;
+    width: calc(20% - 80px);
+    padding: 10px 40px;
+}
+.boxcuoi{
+    float: left;
+    width: calc(20% - 80px);
+    padding: 10px 40px;
+}
+.boxcuoi a{
+    color: black;
+    font-size: 30pt;
+    margin-right: 30px;
+}
+.box img{
+    width: 100% ;
+    height: 250px;
+    object-fit: cover;
+}
+.name{
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    margin-top: 5px;
+    color:  rgb(39, 107, 124);
+    font-style: italic;
+}
+.gia{
+    font-size: 14pt;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.mua{
+    padding: 10px 0px;
+    width: 80%;
+    background-color: rgb(39, 107, 124);
+    height: 15px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+.box:hover .mua{
+    display: block;
+}
+.mua a{
+    color: white;margin-right: 20px;font-size: 13pt;text-decoration: none;
+}
+
+.ct img{
+    width: 500px;height: 500px;float: left; margin-right: 40px;
+}
+.ten{
+    font-size: 25pt;color: teal;font-weight: bold;
+}
+.ch{
+    font-weight: bold;
+}
+.view span {
+    color: teal ; font-weight: bold;font-style: italic;
+}
+.view{
+    font-size: 20pt;
+}
+
+.chiti button{
+    background-color: rgb(39, 107, 124);
+    border: 0;
+    width: 200px;
+    height: 40px;
+}
+.chiti button a{
+    text-decoration: none;color: white;font-weight: bold;text-align: center;font-size: 17pt;
+}
+.gh{
+    margin-top: 20px;
+    float: left;
+    margin-right: 10px;width: 30px;
+    height: 25px;
+}
+.giaohang1{
+    color: #666;font-style: italic;
+}
+.left{
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    
+}
+.danhmuc{
+    border: 1px solid  rgb(39, 107, 124);
+}
+.giohang{
+    width: calc(100% - 40px);   
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid  rgb(39, 107, 124);
+}
+.giohang img{
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.right{
+    width: 73%;
+    float: right;
+}
+.giohang p{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 107, 124);
+}
+.top{
+    width: 100%;
+    min-height: 50px;
+    color:  rgb(39, 107, 124);
+    font-weight: bold;
+    font-size: 15pt;
+}
+.top p{
+    padding: 0px 10px;
+}
+.left a{
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+.dm{
+    width: 100%;
+    float: left;
+    line-height: 20px;
+}
+.dm a:hover{
+    color: rgb(39, 107, 124);
+}
+.bleft{
+    margin: 10px 0px;
+    width: 73%;
+    min-height: 600px;
+    float: right;
+}
+.box1{
+    width: 48%;
+    float: left;
+    margin-right: 1%;
+    height: 500px;
+    border: 1px solid  rgb(39, 107, 124);
+}
+.box1 img{
+    width: 100%;
+    float: left;
+    height: 300px;
+}
+.tt{
+    width: calc(100% - 10px);
+    float: left;
+    padding: 5px;
+    color: rgb(39, 107, 124);
+}
+.day{
+    color: rgb(30, 113, 116);
+    padding: 5px;
+}
+.noid{
+    padding: 5px;
+}
+.about{
+    width: 100%;float: left;
+}
+.about img{
+    width: 100%;float: left;
+}
+.mycart{
+    width: 100%;
+    float: left;
+    color: rgb(39, 107, 124);
+    font-size: 20pt;
+    text-align: center;
+}
+
+.table, th, td{
+    border:2px solid rgb(39, 107, 124);
+    height: 40px;
+}
+.table{
+    width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    border-collapse:collapse;
+}
+.chu{
+    color: rgb(39, 107, 124);
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+.dathang{
+    text-align: center;
+    width: calc(100% -20px);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    border:2px solid rgb(39, 107, 124);
+}
+.form input[type="text"],input[type="email"]{
+    width: 400px;
+    height: 30px;
+}
+.cmt{
+    width: 100%;
+    float: left;
+}
+.cmt a{
+    text-decoration: none;
+    color:  rgb(39, 107, 124);
+    font-size: 15pt;
+    font-weight: bold;
+}
